@@ -8,3 +8,7 @@ spring:
       enabled: true
 server:
   port: ${PORT:8000}
+
+eureka:
+  client:
+    service-url: http://localhost:8761
