@@ -6,6 +6,9 @@ spring:
   h2:
     console:
       enabled: true
+  sleuth:
+    sampler:
+      percentage: 1.0
 server:
   port: ${PORT:8000}
 
